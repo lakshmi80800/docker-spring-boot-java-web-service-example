@@ -4,7 +4,7 @@ FROM eclipse-temurin:8-jre-alpine
 # set shell to bash
 # source: https://stackoverflow.com/a/40944512/3128926
 RUN apk update && apk add bash
-
+ 
 # Set the working directory to /app
 WORKDIR /app
 
